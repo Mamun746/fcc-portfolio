@@ -123,18 +123,36 @@
   width: 333px;
   height: 303px;
 }
+.code {
+  color: #cccccc;
+  transition: color 0.3s ease-out;
+}
+
+.bal:hover .code {
+  color: #ff7f50;
+}
 
 
 /* Social section */
 #social-link{
-  background: hsl(26, 89%, 51%)
+  background: hsl(26, 52%, 68%);
+  height: 400px;
 }
 .social-title{
- 
-  text-align: center
-
+  text-align: center;
+  margin-top:80px;
+  
 }
-
+.social-title > h1{
+ font-size: 50px;
+ padding: 10px;
+ font-family: 'Amatic SC', cursive;
+}
+.social-title > p{
+  font-size: 30px;
+  padding: 10px;
+  font-family: 'Amatic SC', cursive;
+ }
 .social-container{
   display: flex;
   justify-content: center;
