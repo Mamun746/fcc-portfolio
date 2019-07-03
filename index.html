@@ -4,33 +4,82 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Personal Portfolio</title>
+
     <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <title>Personal Portfolio</title>
   </head>
   <body>
     <div class="header">
-      <nav class="nav-bar">
+      <nav class="nav-bar" id="navbar">
         <div class="person-img">
-          <img src="./img/mamun.jpg" alt="mamun" />
+          <img src="./img/logo.jpg" alt="mamun" />
         </div>
         <div class="nav-item">
           <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#work">Work</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#welcome-section">About</a></li>
+            <li><a href="#projects">Work</a></li>
+            <li><a href="#social-link">Contact</a></li>
           </ul>
         </div>
       </nav>
     </div>
-    <section class="showcase">
+    <section id="welcome-section" class="showcase">
       <div class="showcase-content">
         <h1>Hey I Am Mamun</h1>
         <p>a web developer</p>
       </div>
     </section>
-    <section id="work">
-      <h1>These are some of my projects</h1>
+    <section id="projects">
+      <h1 class="project-header">These are some of my projects</h1>
+      <div class="project-details">
+        <div>
+          <a
+            ><img src="./img/logo.jpg" class="projects-img" alt=" project-img"
+          /></a>
+          <h1 class="project-tile">Tribute Page</h1>
+        </div>
+        <div>
+          <a
+            ><img src="./img/logo.jpg" class="projects-img" alt=" project-img"
+          /></a>
+          <h1 class="project-tile">Product Landing Page</h1>
+        </div>
+        <div>
+          <a id="profile-link" href="https://github.com/Mamun746"
+            ><img src="./img/logo.jpg" class="projects-img" alt=" project-img"
+          /></a>
+          <h1 class="project-tile">Survey form</h1>
+        </div>
+        <div>
+          <a
+            ><img src="./img/mamun.jpg" class="projects-img" alt=" project-img"
+          /></a>
+          <h1 class="project-tile">Technical Documentation</h1>
+        </div>
+      </div>
     </section>
+    <section id="social-link">
+      <div class="social-title">
+        <h1>Lets Work Together</h1>
+        <p>How do you take your coffee?</p>
+      </div>
+      <div class="social-container">
+        <a><i class="fab fa-twitter fa-2x icon"></i>Twitter</a>
+        <a><i class="fab fa-facebook-f fa-2x icon"></i>Facebook</a>
+        <a><i class="fab fa-github fa-2x icon"></i>Github</a>
+
+        <a><i class="far fa-envelope fa-2x icon"></i>Github</a>
+      </div>
+    </section>
+    <footer id="main-footer">
+      <p>Copyright &copy;2019,Abdulla Al Mamun, All Rights Reserved</p>
+    </footer>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   </body>
 </html>

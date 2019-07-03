@@ -7,6 +7,7 @@
   padding: 0;
   margin: 0;
   overflow-x: hidden;
+  box-sizing: border-box
 }
 
 .person-img img {
@@ -72,4 +73,78 @@
     color: #fff;
     font-family: 'Amatic SC', cursive;
     
+}
+
+/* Project section */
+#projects{
+  background: #cccccc
+}
+
+.project-header{
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px;
+  border-bottom: 2px solid black;
+  
+}
+ .project-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+} 
+
+ .project-details .projects-img{
+  width: 330px;
+  height: 300px;
+  /* margin-top:20px 20px 0px 20px; */
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  /* transition:width 5s height 5s; */
+  transition: width 1s, height 1s, transform 1s;
+  transition-timing-function:ease-in-out;
+  
+
+}
+
+.project-tile{
+  width: 330px;
+  text-align: center;
+  padding: 20px 10px;
+  background: #1a1613;
+  margin: 0px 20px 20px 10px;
+  color: #fff
+  
+}
+
+.project-details .projects-img:hover{
+  width: 333px;
+  height: 303px;
+}
+
+
+/* Social section */
+#social-link{
+  background: hsl(26, 89%, 51%)
+}
+.social-title{
+ 
+  text-align: center
+
+}
+
+.social-container{
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.social-container a{
+  padding: 30px;
+}
+.icon{
+  padding: 10px;
+  font-size: 30px
 }
