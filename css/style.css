@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.person-img img {
+  max-width: 70px;
+  max-height: 90px;
+  border-radius: 50%;
+}
+
+.nav-bar {
+    position: fixed;
+    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background: #1a1613;
+  flex-wrap: wrap;
+  opacity: 0.85;
+  
+}
+
+.nav-item ul {
+  display: flex;
+}
+
+.nav-item ul li {
+  padding: 30px;
+  list-style: none;
+  font-size: 30px;
+  font-family: 'Amatic SC', cursive;
+ font-weight: bold;
+   
+}
+.nav-bar ul li a {
+  text-decoration: none;
+  color: #fff
+}
+
+/* Showcase section */
+.showcase {
+   background: url("../img/Hello-World.jpg") no-repeat center center/cover; */
+  /* min-height: 550px; */
+}
+.showcase-content {
+  display: flex;
+  height: 100vh; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+.showcase-content >h1{
+    font-size: 40px;
+    padding: 15px;
+    color: #fff;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+}
+.showcase-content >p{
+    font-size: 30px;
+    color: #fff;
+    font-family: 'Amatic SC', cursive;
+    
+}
