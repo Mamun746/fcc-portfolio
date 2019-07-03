@@ -7,7 +7,8 @@
   padding: 0;
   margin: 0;
   overflow-x: hidden;
-  box-sizing: border-box
+  box-sizing: border-box;
+  font-family: 'Amatic SC', cursive;
 }
 
 .person-img img {
@@ -136,7 +137,7 @@
 /* Social section */
 #social-link{
   background: hsl(26, 52%, 68%);
-  height: 400px;
+  height: 500px;
 }
 .social-title{
   text-align: center;
@@ -161,8 +162,27 @@
 
 .social-container a{
   padding: 30px;
+  cursor: pointer;
 }
-.icon{
+span {
+	margin-bottom: 34px;
+	font-size: 26px;
+	padding-left: 5px;
+}
+.social-container i{
+  margin-top: 10px;
+  font-size: 26px;
+}
+/* .social-container a{
   padding: 10px;
-  font-size: 30px
+  font-size: 30px;
+  margin-left: 30px
+} */
+
+/* Footer */
+#footer-main{
+  text-align: center;
+  font-size: 30px;
+  padding: 20px;
+  background: #cccccc
 }
