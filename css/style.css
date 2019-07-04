@@ -11,10 +11,11 @@
   font-family: 'Amatic SC', cursive;
 }
 
-.person-img img {
-  max-width: 70px;
-  max-height: 90px;
-  border-radius: 50%;
+.person-img  {
+  color: #cccccc;
+  margin-left: 30px;
+ 
+  
 }
 
 .nav-bar {
@@ -32,14 +33,16 @@
 
 .nav-item ul {
   display: flex;
+ 
 }
 
 .nav-item ul li {
-  padding: 30px;
+  padding: 20px;
   list-style: none;
   font-size: 30px;
   font-family: 'Amatic SC', cursive;
  font-weight: bold;
+ /* transition: all 1s ease-in-out */
    
 }
 .nav-bar ul li a {
@@ -78,14 +81,15 @@
 
 /* Project section */
 #projects{
-  background: #cccccc
+  background: #cccccc;
+  padding-bottom:30px
 }
 
 .project-header{
   max-width: 500px;
   margin: 0 auto;
   text-align: center;
-  padding: 40px;
+  padding: 10px;
   border-bottom: 2px solid black;
   
 }
@@ -96,34 +100,44 @@
 } 
 
  .project-details .projects-img{
-  width: 330px;
+  width: 315px;
   height: 300px;
   /* margin-top:20px 20px 0px 20px; */
   margin-top: 20px;
   margin-right: 10px;
   margin-bottom: 0px;
   margin-left: 10px;
-  /* transition:width 5s height 5s; */
-  transition: width 1s, height 1s, transform 1s;
-  transition-timing-function:ease-in-out;
   
 
 }
 
-.project-tile{
-  width: 330px;
+/* .project-tile{
+  width: 320px;
   text-align: center;
   padding: 20px 10px;
   background: #1a1613;
   margin: 0px 20px 20px 10px;
   color: #fff
   
+} */
+
+.bal{
+  cursor: pointer;
+  background: #84a16a;
+  margin: 4px;
+  /* transition-property: all;
+  transition-duration: 2s;
+  transition-timing-function: ease-in-out */
+  transition: all 1s ease-in-out;
+}
+.bal:hover{
+  /* background: red;
+  border-radius: 4px; */
+  background: #006400;
+  transform: translate3d(5px,5px,5px)
+ 
 }
 
-.project-details .projects-img:hover{
-  width: 333px;
-  height: 303px;
-}
 .code {
   color: #cccccc;
   transition: color 0.3s ease-out;
@@ -163,6 +177,7 @@
 .social-container a{
   padding: 30px;
   cursor: pointer;
+  text-decoration: none;
 }
 span {
 	margin-bottom: 34px;
@@ -173,12 +188,12 @@ span {
   margin-top: 10px;
   font-size: 26px;
 }
-/* .social-container a{
-  padding: 10px;
-  font-size: 30px;
-  margin-left: 30px
-} */
-
+.icon{
+  transition: all 1s ease-in;
+}
+.icon:hover{
+  transform: translateY(5px)
+}
 /* Footer */
 #footer-main{
   text-align: center;
