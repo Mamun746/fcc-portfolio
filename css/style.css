@@ -13,7 +13,7 @@
 }
 
 .person-img h1 {
-  color: #cccccc;
+  color: #fff;
   margin-left: 30px;
   font-family: 'Pacifico', cursive;
 }
@@ -224,3 +224,25 @@ span {
 }
 
 
+@media (max-width:452px){
+  .person-img h1 {
+    
+    margin:0 auto;
+    
+  }
+  button{
+    
+    margin-left:35%;
+    
+    
+  }
+}
+
+@media (max-width:420px){
+  .nav-item ul li {
+    padding: 10px;
+    font-size: 25px;
+    
+     
+  }
+}
