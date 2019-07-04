@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
 
 
 
@@ -11,11 +12,10 @@
   font-family: 'Amatic SC', cursive;
 }
 
-.person-img  {
+.person-img h1 {
   color: #cccccc;
   margin-left: 30px;
- 
-  
+  font-family: 'Pacifico', cursive;
 }
 
 .nav-bar {
@@ -81,7 +81,7 @@
 
 /* Project section */
 #projects{
-  background: #cccccc;
+  background: #46567d;
   padding-bottom:30px
 }
 
@@ -89,20 +89,22 @@
   max-width: 500px;
   margin: 0 auto;
   text-align: center;
-  padding: 10px;
-  border-bottom: 2px solid black;
+  padding: 30px;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  font-size: 30px;
   
 }
  .project-details{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 20px;
 } 
 
  .project-details .projects-img{
   width: 315px;
   height: 300px;
-  /* margin-top:20px 20px 0px 20px; */
   margin-top: 20px;
   margin-right: 10px;
   margin-bottom: 0px;
@@ -111,44 +113,67 @@
 
 }
 
-/* .project-tile{
-  width: 320px;
-  text-align: center;
-  padding: 20px 10px;
-  background: #1a1613;
-  margin: 0px 20px 20px 10px;
-  color: #fff
-  
-} */
 
-.bal{
+.project-setting{
   cursor: pointer;
-  background: #84a16a;
+  background: #2a2b2d;
   margin: 4px;
   /* transition-property: all;
   transition-duration: 2s;
   transition-timing-function: ease-in-out */
   transition: all 1s ease-in-out;
 }
-.bal:hover{
+.project-setting:hover{
   /* background: red;
   border-radius: 4px; */
   background: #006400;
   transform: translate3d(5px,5px,5px)
  
 }
+.project-tile{
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+  padding: 20px 10px;
+  font-weight: bold;
+}
 
 .code {
-  color: #cccccc;
+  color: #2a2b2d;
   transition: color 0.3s ease-out;
 }
 
-.bal:hover .code {
+.project-setting:hover .code {
   color: #ff7f50;
 }
 
-
+button{
+  background: #2a2b2d;
+  cursor: pointer;
+  margin-left:50%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 15px 40px;
+  color: #fff;
+  border: none;
+  font-size: 25px;
+  border-radius: 5px;
+  font-weight: bold;
+  
+}
+button:hover{
+transform: translateX(8px)
+}
+button i{
+  padding: 5px;
+  transition: all 1s ease-in-out;
+}
+button i:hover{
+  transform: translateX(5px)
+}
 /* Social section */
+
+
 #social-link{
   background: hsl(26, 52%, 68%);
   height: 500px;
@@ -160,6 +185,7 @@
 }
 .social-title > h1{
  font-size: 50px;
+ font-weight: bold;
  padding: 10px;
  font-family: 'Amatic SC', cursive;
 }
@@ -181,19 +207,14 @@
 }
 span {
 	margin-bottom: 34px;
-	font-size: 26px;
-	padding-left: 5px;
+  font-size: 26px;
+  padding-left: 5px;
 }
 .social-container i{
   margin-top: 10px;
   font-size: 26px;
 }
-.icon{
-  transition: all 1s ease-in;
-}
-.icon:hover{
-  transform: translateY(5px)
-}
+
 /* Footer */
 #footer-main{
   text-align: center;
@@ -201,3 +222,5 @@ span {
   padding: 20px;
   background: #cccccc
 }
+
+
